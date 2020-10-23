@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget-tracker'
   useFindAndModify: false
 });
 
-// routes
+
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
