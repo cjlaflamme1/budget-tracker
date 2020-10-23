@@ -14,6 +14,8 @@ const staticFilesToPreCache = [
   "/styles.css",
   "/index.js",
   "/manifest.webmanifest",
+  "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
+  "icons/icon-192x192.png"
 ].concat(iconFiles);
 
 
